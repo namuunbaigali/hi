@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import Hero from "./components/Hero";
 import Navbar from "./Layouts/Navbar";
 import Skills from "./components/Skills";
@@ -10,6 +10,8 @@ import Contact from "./components/Contact";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import Login from "./components/Login";
+import React from 'react';
+import './Layouts/Navbar';
 
 const App = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -17,7 +19,7 @@ const App = () => {
   useEffect(() => {
     Aos.init({
       duration: 1800,
-      offset: 100,
+      offset: 100,  
       disable: "mobile",
     });
   }, []);
@@ -32,12 +34,12 @@ const App = () => {
     <div className="italic">
       {isLoggedIn ? (
         <>
-          {/* <Navbar /> */}
+          <Navbar />
           <Hero />
-          {/* <Service /> */}
-          {/* <Skills /> */}
-          {/* <Projects /> */}
-          {/* <Testimonials /> */}
+          <Service />
+          <Skills />
+          <Projects />
+          <Testimonials />
           {/* <MyPhotoAlbum /> */}
           <Hireme />
           <Contact />
@@ -51,8 +53,8 @@ const App = () => {
             <h2> ХАМГИЙН САЙХАН НЬ . . .</h2>
           </footer>
         </>
-      ) : (null
-        // <Login onLogin={handleLogin} />
+      ) : (
+        <Login onLogin={handleLogin} />
       )}
     </div>
   );
