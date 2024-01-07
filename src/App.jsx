@@ -12,6 +12,8 @@ import "aos/dist/aos.css";
 import Login from "./components/Login";
 import React from 'react';
 import './Layouts/Navbar';
+import { createRoot } from 'react-dom/client';
+
 
 const App = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);

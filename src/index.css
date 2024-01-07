@@ -1,3 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 /* Inria serif */
 @import url("https://fonts.googleapis.com/css2?family=Inria+Serif:wght@700&display=swap");
 /* Poppins */
@@ -5,9 +10,7 @@
 /* Paprika */
 @import url("https://fonts.googleapis.com/css2?family=Paprika&display=swap");
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
 
 @layer base {
   html {
