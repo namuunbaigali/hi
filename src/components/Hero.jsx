@@ -1,6 +1,6 @@
 // import content
 import { useEffect } from "react";
-import { content } from "../../../gridad/src/Content";
+import { content } from "../../../hi/src/Content";
 const Hero = () => {
   const { hero } = content;
 

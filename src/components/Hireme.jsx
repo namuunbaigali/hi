@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { content } from "../../../gridad/src/Content";
+import { content } from "../../../hi/src/Content";
 import Modal from "react-modal";
 import TravelPhoto from "./photos/TravelPhotos";
 import Hero_person from "../assets/images/Hireme/person.png";
