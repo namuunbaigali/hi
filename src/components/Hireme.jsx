@@ -5,7 +5,6 @@ import TravelPhoto from "./photos/TravelPhotos";
 import Hero_person from "../assets/images/Hireme/person.png";
 // import Hero_person2 from "../assets/images/Hero/person2.png";
 
-
 const customStyles = {
   content: {
     top: "50%",
@@ -30,7 +29,6 @@ const customStyles = {
   },
 };
 
-
 Modal.setAppElement("#root");
 
 const Hireme = () => {
@@ -47,20 +45,20 @@ const Hireme = () => {
 
   return (
     <section className="bg-bg_light_primary">
-      <div className="md:container px-5 pt-14 ">
-        <h2 className="title italic" data-aos="fade-down">
+      <div className="px-5 md:container pt-14 ">
+        <h2 className="italic title" data-aos="fade-down">
           {Hireme.title}
         </h2>
-        <h4 className="subtitle italic" data-aos="fade-down">
+        <h4 className="italic subtitle" data-aos="fade-down">
           {Hireme.subtitle}
         </h4>
         <br />
-        <div className="flex items-center md:flex-row flex-col-reverse ">
+        <div className="flex flex-col-reverse items-center md:flex-row ">
           <img
             src={Hero_person}
             alt="..."
             data-aos="fade-right"
-            className="max-w-sm md:block hidden max-h-md"
+            className="hidden max-w-sm md:block max-h-md"
           />
           <img
             src={Hero_person}
@@ -73,10 +71,10 @@ const Hireme = () => {
             className="border-2 border-dark_primary max-w-sm
            p-6 shadow-sm rounded-xl rounded-br-[8rem] sm:min-w-[22rem]"
           >
-            <p className="leading-7 italic">{Hireme.para}</p>
+            <p className="italic leading-7">{Hireme.para}</p>
             <br />
             <button
-              className="btn  bg-dark_primary text-white"
+              className="text-white btn bg-dark_primary"
               onClick={() => openModal()}
             >
               {Hireme.btnText}
@@ -89,8 +87,21 @@ const Hireme = () => {
         onRequestClose={closeModal}
         style={customStyles}
       >
-        <TravelPhoto />
-        <div className="flex mt-8 justify-end">
+        <h7>
+          Сайн уу ? Миний үр ээ . Жаргаах зүрхний наран минь чамайгаа ямар их
+          санаж байгааг чи минь мэддэг ч болоосой. Чамайгаа дэргэд байхад ямар
+          сайхан байсан гэдгийг хожуу ойлгосон би толгой руу гаа цохих ч
+          багадмаар санагдана надад . Бидний бяцхан хийгээд хамгийн том мөрөөдөл
+          бол чи манай хүү болж би танай охин л болох туйлын ганц л хүсэлтэй .
+          Тэр хүсэл мөрөөдөлөө биелүүлэхийн төлөө төдийгөөс өдийг хүртэл ямар их
+          зүйл туулсан юмдээ хамтдаа. Чинийхээ дэргэд зовсон гэж хэлэхгүй ээ яаж
+          болох юм бэ . Охин бүрийн хүсдэг хайраар хайрлуулсан юмсан дэргэд чинь
+          байхдаа хошуугаа тэр доор унжуулчихаад л гоншигнодог байж билээ хмм
+          чинийхээ хайр бас халамжийг ямар их санаж байна аа . Чамайг явсанаас
+          хойш нуурандаа үлдсэн доголон хун шиг л тэнгэрийн хаяа ширтээд суудаг
+          сан
+        </h7>
+        <div className="flex justify-end mt-8">
           <button onClick={() => closeModal()} className="btn">
             Xaax
           </button>
