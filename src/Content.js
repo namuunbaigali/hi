@@ -39,10 +39,10 @@ import services_img18 from "./assets/images/Services/img18.png";
 // import services_video7 from "./assets/videos/video7.mp4";
 
 
-import project1 from "./assets/images/projects/img1.png";
-import project2 from "./assets/images/projects/img2.png";
-import project3 from "./assets/images/projects/img3.png";
-import person_project from "./assets/images/projects/header.png";
+import project1 from "./assets/images/Projects/img1.png";
+import project2 from "./assets/images/Projects/img2.png";
+import project3 from "./assets/images/Projects/img3.png";
+import person_project from "./assets/images/Projects/header.png";
 
 import avatar1 from "./assets/images/Testimonials/avatar1.jpg";
 import avatar2 from "./assets/images/Testimonials/avatar2.png";

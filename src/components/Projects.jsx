@@ -1,7 +1,7 @@
 import { content } from "../../../hi/src/Content";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-import video from '../assets/videos/mainvideo.mp4'
+// import video from '../assets/videos/mainvideo.mp4'
 
 // Import Swiper styles
 import "swiper/css";
@@ -14,7 +14,7 @@ const Projects = () => {
   return (
     <section className="bg-bg_light_primary" id="projects">
       <div className="md:container px-5 pt-14 min-h-screen flex flex-col justify-between">
-      <iframe
+      {/* <iframe
         width="100%"
         height="360"
         src={video}
@@ -23,7 +23,7 @@ const Projects = () => {
         // allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
         className="hidden"
-      ></iframe>
+      ></iframe> */}
         <div>
           <h2 className="title" data-aos="fade-down">
             {Projects.title}

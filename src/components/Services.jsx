@@ -7,7 +7,7 @@ import ReactPlayer from "react-player";
 import "swiper/css";
 import "swiper/css/pagination";
 
-import { content } from "../../../gridad/src/Content";
+import { content } from "../../../hi/src/Content";
 
 const customStyles = {
   content: {
