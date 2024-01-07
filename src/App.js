@@ -1,15 +1,15 @@
 import React, { useEffect, useState } from "react";
 import Hero from "./components/Hero";
-// import Navbar from "./Layouts/Navbar";
-// import Skills from "./components/Skills";
-// import Service from "./components/Services";
-// import Projects from "./components/Projects";
-// import Testimonials from "./components/Testimonials";
+import Navbar from "./Layouts/Navbar";
+import Skills from "./components/Skills";
+import Service from "./components/Services";
+import Projects from "./components/Projects";
+import Testimonials from "./components/Testimonials";
 import Hireme from "./components/Hireme";
 import Contact from "./components/Contact";
 import Aos from "aos";
 import "aos/dist/aos.css";
-// import Login from "./components/Login";
+import Login from "./components/Login";
 
 const App = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
