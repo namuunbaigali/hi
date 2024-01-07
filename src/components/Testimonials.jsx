@@ -1,4 +1,4 @@
-import { content } from "../../../gridad/src/Content";
+import { content } from "../../../hi/src/Content";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
