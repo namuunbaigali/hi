@@ -13,7 +13,7 @@ const Projects = () => {
   const { Projects } = content;
   return (
     <section className="bg-bg_light_primary" id="projects">
-      <div className="md:container px-5 pt-14 min-h-screen flex flex-col justify-between">
+      <div className="flex flex-col justify-between min-h-screen px-5 md:container pt-14">
       {/* <iframe
         width="100%"
         height="360"
@@ -33,7 +33,7 @@ const Projects = () => {
           </h4>
           <br />
         </div>
-        <div className="flex items-center lg:flex-row flex-col-reverse gap-5">
+        <div className="flex flex-col-reverse items-center gap-5 lg:flex-row">
           <img
             src={Projects.image}
             alt="..."
@@ -48,7 +48,7 @@ const Projects = () => {
             data-aos="fade-left"
             spaceBetween={20}
             modules={[Pagination]}
-            className="rounded-3xl pb-16 max-w-xs drop-shadow-primary self-start"
+            className="self-start max-w-xs pb-16 rounded-3xl drop-shadow-primary"
           >
             {Projects.project_content.map((content, i) => (
               <SwiperSlide
@@ -56,12 +56,12 @@ const Projects = () => {
                 className="bg-white rounded-3xl p-5 border-b-8 border-[#FAF9FD] h-fit"
               >
                 <img src={content.image} alt="..." />
-                <div className="flex flex-col gap-1 mt-2">
+                {/* <div className="flex flex-col gap-1 mt-2">
                   <h5 className="font-bold font-Poppins">{content.title}</h5>
-                  <button className="font-bold text-gray self-end">
+                  <button className="self-end font-bold text-gray">
                     READ MORE
                   </button>
-                </div>
+                </div> */}
               </SwiperSlide>
             ))}
           </Swiper>

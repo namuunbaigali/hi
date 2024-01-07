@@ -39,9 +39,9 @@ import services_img18 from "./assets/images/Services/img18.png";
 // import services_video7 from "./assets/videos/video7.mp4";
 
 
-import project1 from "./assets/images/Projects/img1.png";
-import project2 from "./assets/images/Projects/img2.png";
-import project3 from "./assets/images/Projects/img3.png";
+import project1 from "./assets/images/Projects/img1.jpg";
+import project2 from "./assets/images/Projects/img2.jpg";
+import project3 from "./assets/images/Projects/img3.jpg";
 import person_project from "./assets/images/Projects/header.png";
 
 import avatar1 from "./assets/images/Testimonials/avatar1.jpg";
@@ -152,22 +152,22 @@ export const content = {
     subtitle: "2021-2023",
     service_content: [
       {
-        title: "Аялал",
+        title: "1",
         para: "Чөлөөт цаг заваа аль болох хоёулхнаа агаарт гарч ярилцаж алхахыг илүүд үздэг . Байгальд ээлтэй хосууд жүү",
         logo: services_img1,
       },
       {
-        title: "Сээр цохих наадгай",
+        title: "2",
         para: "Энэ спортод гүнжтэн эхлээд дургүй байсан ч сүүлдээ хөөрхөн Гарьдыг яваж үзнэ гэж уурладаг болсон . Нэгнийхээ дуртай спортыг дэмждэг хос",
         logo: services_img2,
       },
       {
-        title: "Сээр цохих наадгай",
+        title: "3",
         para: "Энэ спортод гүнжтэн эхлээд дургүй байсан ч сүүлдээ хөөрхөн Гарьдыг яваж үзнэ гэж уурладаг болсон . Нэгнийхээ дуртай спортыг дэмждэг хос",
         logo: services_img3,
       },
       {
-        title: "PhotoShop Editing",
+        title: "4",
         para: "",
         logo: services_img4,
       },
@@ -246,8 +246,8 @@ export const content = {
     ],
   },
   Projects: {
-    title: "Projects",
-    subtitle: "MY CREATION",
+    title: "Чамтайгаа өнгөрүүлсэн бүх цаг хугацааг би диваажин гэж нэрлэнэ.",
+    subtitle: "",
     image: person_project,
     project_content: [
       {
