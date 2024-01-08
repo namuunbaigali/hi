@@ -1,4 +1,4 @@
-import { content } from "../../../hi/src/Content";
+import { content } from "../Content";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import video from '../assets/videos/mainVideo.mp4'

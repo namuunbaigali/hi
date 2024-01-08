@@ -1,6 +1,6 @@
 // import content
 import { useEffect, useState } from "react";
-import { content } from "../../../hi/src/Content";
+import { content } from "../Content";
 import Modal from "react-modal";
 
 const customStyles = {

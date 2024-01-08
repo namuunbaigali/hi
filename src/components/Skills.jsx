@@ -1,6 +1,6 @@
 // import content
 import { createElement, useState } from "react";
-import { content } from "../../../hi/src/Content";
+import { content } from "../Content";
 // import modal package
 import Modal from "react-modal";
 
