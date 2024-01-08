@@ -12,7 +12,7 @@ import services_img1 from "./assets/images/Services/img1.jpg";
 import services_img2 from "./assets/images/Services/img2.jpg";
 import services_img3 from "./assets/images/Services/img3.png";
 import services_img4 from "./assets/images/Services/img4.jpg";
-import services_img5 from "./assets/images/Services/img5.jpg";
+import services_img5 from "./assets/images/Services/img10.png";
 import services_img6 from "./assets/images/Services/img6.png";
 import services_img7 from "./assets/images/Services/img7.png";
 import services_img8 from "./assets/images/Services/img8.png";

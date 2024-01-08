@@ -8,7 +8,7 @@ import Hero_person from "../assets/images/Hireme/person.png";
 const customStyles = {
   content: {
     top: "50%",
-    left: "33%",
+    left: "47%",
     right: "auto",
     bottom: "auto",
     marginRight: "-50%",
