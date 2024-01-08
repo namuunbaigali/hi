@@ -43,11 +43,11 @@ const Hero = () => {
 
   return (
     <section id="home" className="overflow-hidden">
-      <div className="min-h-screen relative flex md:flex-row flex-col-reverse md:items-end justify-center items-center">
+      <div className="relative flex flex-col-reverse items-center justify-center min-h-screen md:flex-row md:items-end">
         <div
           data-aos="slide-left"
           data-aos-delay="1200"
-          className="absolute h-full md:w-4/12 w-8/12 top-0 right-0 bg-primaryLinear bottom-0 -z-10"
+          className="absolute top-0 bottom-0 right-0 w-8/12 h-full md:w-4/12 bg-primaryLinear -z-10"
         >
           <h1 className="rotate-90 absolute top-[30%] right-[-15%] text-[#EAF2FA]">
             {hero.firstName}{" "}
@@ -56,7 +56,7 @@ const Hero = () => {
         </div>
 
         {/* first col */}
-        <div className="pb-16 px-6 pt-5" data-aos="fade-down">
+        <div className="px-6 pt-5 pb-16" data-aos="fade-down">
           <h2>{hero.title}</h2>
           <br />
           <div className="flex justify-end">
@@ -86,7 +86,7 @@ const Hero = () => {
             src={hero.image}
             data-aos="slide-up"
             alt="..."
-            className="h-full object-cover "
+            className="object-cover h-full "
           />
         </div>
       </div>
@@ -151,7 +151,7 @@ const Hero = () => {
           шиг намайг ахин нэг тэврээч . Амьсгал бүрээрээ хайрлая гарын минь хээ
           шиг ганцхан чамайгаа алдахад чинь түших хань чинь болье . Өрх гэрийн
           чинь үүдийг нь татаж өрхийг чинь чангалах гэргий чинь болье . Харин чи
-          минь миний идээний дээжээ аягалж хүлээдэг , энгэрийн товчийг хадаж
+          минь миний идээний дээжээ аягалж хүлээдэг , энгэрийнхэн товчийг хадаж
           хүлээдэг гэрийг минь дүүргэх гэргий заяаг минь түших эр нөхөр минь
           болоорой. Чамдаа би чиний мэдэх хязгаараас их хайртай хайрыг хэмжих
           хэмжүүр үгүй хойно энэхэн биеэ хөрсөнд шингэх хүртэл чамайгаа
