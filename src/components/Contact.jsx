@@ -31,22 +31,22 @@ const Contact = () => {
   };
 
   return (
-    <section className="bg-dark_primary md:grid-cols-4 md:grid items-center  text-white" id="contact">
+    <section className="flex items-center justify-center text-white bg-dark_primary xs:grid-cols-2" id="contact">
       <Toaster />
-      <div className="md:container px-5 py-4 items-center">
+      <div className="pb-4">
       
         <br />
        
-          <div className="flex justify-between gap-5">
+          <div className="xs:grid xs:grid-cols-2 xs:pl-9">
             {Contact.social_media.map((content, i) => (
               <div
                 key={i}
                 data-aos="fade-down"
                 data-aos-delay={i * 430}
-                className="flex items-center gap-2"
+                className="flex items-center py-2"
               >
-                <h4 className="text-white">{createElement(content.icon)}</h4>
-                <a className="font-Poppins" href={content.link} target="_blank">
+                <h4 className="pr-2 text-white">{createElement(content.icon)}</h4>
+                <a className="" href={content.link} target="_blank">
                   {content.text}
                 </a>
               </div>

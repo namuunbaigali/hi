@@ -10,19 +10,28 @@ const Login = ({ onLogin }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
+  
     console.log("Username:", username);
     console.log("Password:", password);
-
-    setUsername("");
-    setPassword("");
+  
+    if (username.trim() === "Хөөрхөнөө" && password.trim() === "2021-08-05") {
+      // Username and password are correct, proceed with login
+      setUsername("");
+      setPassword("");
+      onLogin();
+    } else {
+      // Username or password is incorrect, handle the error
+      console.log("Incorrect username or password");
+    }
+    
   };
+   
   const handleLoginClick = () => {
     onLogin();
   };
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 container mx-auto shadow-xl shadow-gray-400 my-5 bg-[#e4eff8] rounded-3xl">
-    <div className="flex flex-col justify-center items-center p-6 md:p-10">
+    <div className="flex flex-col items-center justify-center p-6 md:p-10">
       <a
         href={pig}
         className="flex items-center mb-6 text-2xl font-semibold text-gray-900 dark:text-white"
@@ -84,7 +93,7 @@ const Login = ({ onLogin }) => {
 
             <button
               onClick={handleLoginClick}
-              className=" border w-full rounded-xl p-2 border-slate-300"
+              className="w-full p-2 border rounded-xl border-slate-300"
             >
               {/* <img src={letsgo} alt="letsgo" className="w-12 h-12" /> */}
               Нэвтрэх
@@ -92,7 +101,7 @@ const Login = ({ onLogin }) => {
           </form>
         </div>
       </div>
-      <div className="px-6 py-8 rounded-2xl flex flex-col items-center justify-center  mx-auto  lg:py-0 ">
+      <div className="flex flex-col items-center justify-center px-6 py-8 mx-auto rounded-2xl lg:py-0 ">
         {/* <ReactPlayer
           ` url="https://drive.google.com/uc?id=1847xgoCoZqGo4nUT9NU8f2K5yyxyGzc9"
             controls={true}
@@ -103,8 +112,8 @@ const Login = ({ onLogin }) => {
       </div>
     </div>
 
-    <div className="text-start m-auto text-5xl flex flex-col justify-center items-center leading-relaxed italic p-6 md:p-10">
-      <button className=" text-start m-auto text-[1.8rem]   flex flex-col w-full items-center justify-center leading-relaxed italic  mx-auto lg:py-0  container  grid-cols-2 md:grid-cols-2 gap-8  rounded-2xl">
+    <div className="flex flex-col items-center justify-center p-6 m-auto text-5xl italic leading-relaxed text-start md:p-10">
+      <button className=" text-start m-auto text-[1.8rem] xs:text-[1rem]   flex flex-col w-full items-center justify-center leading-relaxed italic  mx-auto lg:py-0  container  grid-cols-2 md:grid-cols-2 gap-8  rounded-2xl">
         Чи уул юмаа гэхэд <br />
         Чиний цаана уул байхгүй юм шиг <br />
         Чи ус юмаа гэхэд <br />
