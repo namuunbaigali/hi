@@ -15,28 +15,31 @@ const Login = ({ onLogin }) => {
     console.log("Password:", password);
 
     if (username.trim() === "Хөөрхөнөө" && password.trim() === "2021-08-05") {
-      // Username and password are correct, proceed with login
       setUsername("");
       setPassword("");
       onLogin();
     } else {
-      // Username or password is incorrect, handle the error
       console.log("Incorrect username or password");
     }
   };
 
   const handleLoginClick = () => {
     onLogin();
+    alert("Нэвтрэх хэсгийн дээр орших зурагнууд тус бүрд дарж үзээгүй юм биш биз");
   };
+  
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 container mx-auto shadow-xl shadow-gray-400 my-5 bg-[#e4eff8] rounded-3xl">
       <div className="flex flex-col items-center justify-center md:p-10">
+        <div className="flex items-center">
+
         <a
           href={pig}
           className="flex items-center mb-6 text-2xl font-semibold text-gray-900 dark:text-white"
         >
           <img className="w-24 h-24 mr-2 xs:w-20 xs:h-20" src={pig} alt="logo" />
           {/* <a href="https://www.fontspace.com/category/cute"><img src="https://see.fontimg.com/api/renderfont4/la1w/eyJyIjoiZnMiLCJoIjo2NSwidyI6MTAwMCwiZnMiOjY1LCJmZ2MiOiIjMDAwMDAwIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/SHV1cmh1bnV1/balonku-regular.png" alt="Cute fonts"/></a> */}
+        </a>
           <a href="https://drive.google.com/file/d/1D75uZxhGO8YERb_MrumLOZ1z02N4caZp/view?usp=drive_link">
             <img
               src="https://see.fontimg.com/api/renderfont4/la1w/eyJyIjoiZnMiLCJoIjo2NSwidyI6MTAwMCwiZnMiOjY1LCJmZ2MiOiIjMDAwMDAwIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/SHV1cmh1bnV1/balonku-regular.png"
@@ -44,7 +47,7 @@ const Login = ({ onLogin }) => {
               className="h-16 w-72 xs:h-12 xs:w-64"
             />
           </a>
-        </a>
+        </div>
         <div className="w-full bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
           <div className="p-6 space-y-4 md:space-y-6 sm:p-8">
             <h1 className="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white">
@@ -57,7 +60,7 @@ const Login = ({ onLogin }) => {
             >
               <div>
                 <label
-                  htmlFor="someInput"
+                  htmlFor="email"
                   for="email"
                   className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
                 >
@@ -75,7 +78,7 @@ const Login = ({ onLogin }) => {
               </div>
               <div>
                 <label
-                  htmlFor="someInput"
+                  htmlFor="password"
                   for="password"
                   className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
                 >
@@ -95,7 +98,9 @@ const Login = ({ onLogin }) => {
               <button
                 onClick={handleLoginClick}
                 className="w-full p-2 border rounded-xl border-slate-300"
+                
               >
+            
                 {/* <img src={letsgo} alt="letsgo" className="w-12 h-12" /> */}
                 Нэвтрэх
               </button>
