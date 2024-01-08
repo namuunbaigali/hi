@@ -48,7 +48,7 @@ const Login = ({ onLogin }) => {
             onSubmit={handleSubmit}
           >
             <div>
-              <label
+              <label htmlFor="someInput"
                 for="email"
                 className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
               >
@@ -65,7 +65,7 @@ const Login = ({ onLogin }) => {
               />
             </div>
             <div>
-              <label
+              <label htmlFor="someInput"
                 for="password"
                 className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
               >
