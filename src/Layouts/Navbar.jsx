@@ -9,7 +9,7 @@ const Navbar = () => {
   const [active, setActive] = useState(0);
 
   return (
-    <div className="w-full flex justify-center">
+    <div className="flex justify-center w-full">
       <div
         className="sm:cursor-pointer fixed top-10 left-10 z-[999] rounded-lg bg-white/40 p-2"
         onClick={() => setShowMenu(!showMenu)}
@@ -23,6 +23,7 @@ const Navbar = () => {
       >
         {nav.map((item, i) => (
           <a
+          key={`${i + 2}`}
             href={item.link}
             onClick={() => setActive(i)}
             className={`text-xl p-2.5 rounded-full sm:cursor-pointer 

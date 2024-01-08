@@ -43,7 +43,7 @@ const Services = () => {
 
   return (
     <section id="services">
-      <div className="md:container px-5 py-14">
+      <div className="px-5 md:container py-14">
         <h2 className="title" data-aos="fade-down">
           {services.title}
         </h2>
@@ -61,7 +61,7 @@ const Services = () => {
           modules={[Pagination]}
         >
           {services.service_content.map((content, i) => (
-            <SwiperSlide key={content.title}>
+            <SwiperSlide key={`services ${i + 2}`}>
               {content.logo && (
                 <img
                   src={content.logo}
