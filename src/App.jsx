@@ -13,6 +13,9 @@ import Login from "./components/Login";
 import React from 'react';
 import './Layouts/Navbar';
 import { createRoot } from 'react-dom/client';
+import TravelPhoto from "./components/photos/TravelPhotos";
+// import PhotoAlbums from "./components/photos/PhotoAlbums";
+
 
 
 const App = () => {
@@ -42,7 +45,8 @@ const App = () => {
           <Skills />
           <Projects />
           <Testimonials />
-          {/* <MyPhotoAlbum /> */}
+          <TravelPhoto />
+          {/* <PhotoAlbums/> */}
           <Hireme />
           <Contact />
 

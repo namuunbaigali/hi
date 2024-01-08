@@ -196,7 +196,7 @@ const album = [
 const TravelPhoto = () => {
     return (
       <div className="">
-        <h1>Test </h1>
+        <h1> </h1>
         <PhotoAlbum layout="columns" photos={album} />
       </div>
     );
