@@ -5,8 +5,8 @@ import pig from "../assets/other/pig.png";
 import letsgo from "../assets/other/letsgo.png";
 
 const Login = ({ onLogin }) => {
-  const [username, setUsername] = useState("");
-  const [password, setPassword] = useState("");
+  const [username, setUsername] = useState("Хөөрхөнөө");
+  const [password, setPassword] = useState("2021-08-05");
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -76,7 +76,7 @@ const Login = ({ onLogin }) => {
                 type="password"
                 name="password"
                 id="password"
-                placeholder="••••••••"
+                placeholder="yyyy-mm-dd"
                 className="bg-gray-50 border border-slate-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                 required=""
               />

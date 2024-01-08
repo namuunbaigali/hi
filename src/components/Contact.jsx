@@ -31,7 +31,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="bg-dark_primary xs:grid-cols-2 xs:grid text-white" id="contact">
+    <section className="bg-dark_primary md:grid-cols-4 md:grid items-center  text-white" id="contact">
       <Toaster />
       <div className="md:container px-5 py-4 items-center">
       

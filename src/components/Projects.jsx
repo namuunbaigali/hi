@@ -1,7 +1,7 @@
 import { content } from "../../../hi/src/Content";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-// import video from '../assets/videos/mainVideo.mp4'
+import video from '../assets/videos/mainVideo.mp4'
 import ReactPlayer from 'react-player'
 
 // Import Swiper styles
@@ -15,18 +15,7 @@ const Projects = () => {
   return (
     <section className="bg-bg_light_primary" id="projects">
       <div className="flex flex-col justify-between min-h-screen px-5 md:container pt-14">
-      {/* <video
-                  width="750"
-                  height="16rem"
-                  controls
-                  className="xs:w-36 xs:h-36 x md:h-[64vh] md:w-[56rem]"
-                >
-                  <source src="https://www.youtube.com/watch?v=my6jVptuYRw" type="video/mp4" />
-                  <source
-                    src="https://www.youtube.com/watch?v=my6jVptuYRw"
-                    type="video/otherFormat"
-                  />
-                </video> */}
+      <iframe src={ video} title="W3Schools Free Online Web Tutorials" className="hidden"></iframe>
         <div>
           <h2 className="title" data-aos="fade-down">
             {Projects.title}

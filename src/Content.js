@@ -97,7 +97,7 @@ export const content = {
     title: "Бидний хайрын түүх",
     firstName: "GARID",
     LastName: "NAMUUK",
-    btnText: " ",
+    btnText: " Захиа",
     image: Hero_person,
     hero_content: [
       {
@@ -140,8 +140,8 @@ export const content = {
         logo: sketch,
       },
       {
-        name: "Python",
-        para: "Lorem ipsum text  dummy",
+        name: "2 гэрийхэнтэйгээ танилцах",
+        para: "Бүгд мэддэг болохоор одоо зоригтой байх болсон байх",
         logo: python,
       },
     ],
@@ -309,11 +309,11 @@ export const content = {
   },
   Hireme: {
     title: "",
-    subtitle: "Бидний хамтдаа өнгөрүүлсэн цаг хугацаа шиг гайхамшигиөг өөр хэн ч бүтээж чадахгүй ",
+    subtitle: " ",
     image1: Hireme_person,
     image2: Hireme_person2,
-    para: "Чамтайгаа байсан цаг хугацаа ямар нандин бас үнэтэй байсныг өдөр хоног бүр ойлгуулж байна нандин минь .\nЭнэ л зургууд хамт байсан цаг хугацаа бүрийг минь эргэн сануулж дурсамж бүрийг нүднээ тодхон харуулах юм .\nЧамдаа ямар их хайртай юм дээ би . . .",
-    btnText: "Дурсамжаараа аялая",
+    para: "Энэ талбарт өөр зүйл төлөвлөсөн байсан ч энэ захиагаа үлдээгээд дуусгьядаа  ",
+    btnText: "Hээx",
   },
   Contact: {
     title: "Contect Me",
@@ -336,9 +336,9 @@ export const content = {
         link: "https://www.instagram.com/_nmunbaigli/?fbclid=IwAR3iINaSHNflORAy8StgUFLMKpaSitxHQo_6Efm-iGUC_YhHO7kyzmK9qbg",
       },
       {
-        text: "codeaprogram",
+        text: "___garidaaaa___",
         icon: BsInstagram,
-        link: "https://www.instagram.com/codeaprogram/",
+        link: "https://www.instagram.com/___garidaaaa___?igsh=MTJlbmJ3bmRwajk2bQ==",
       },
     ],
   },
