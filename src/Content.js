@@ -117,32 +117,32 @@ export const content = {
       {
         name: "SkyResort ",
         para: "Цастай , өвөлтэй холбоотой дурсамжаа нэмэх . ",
-        logo: figma,
+        logo: avatar1,
       },
       {
         name: "Аялал ",
         para: "Очиж үзээгүй олон сонирхолтой газар очих ,хамт хол замыг туулах .",
-        logo: nodejs,
+        logo: avatar2,
       },
       {
         name: "Уран зургын кафе",
         para: "Хамтдаа зураг зурах , зурсан зургаа ханандаа өлгөх",
-        logo: ps,
+        logo: avatar3,
       },
       {
         name: "Студид зургаа даруулах",
         para: "Чанартай бас том хэмжээний олон гоё зурагтай болох ",
-        logo: reactjs,
+        logo: avatar4,
       },
       {
         name: "Шивээс",
         para: "Хос шивээс хийлгээд энэ насаа дуустал хосоороо байх ",
-        logo: sketch,
+        logo: avatar5,
       },
       {
         name: "2 гэрийхэнтэйгээ танилцах",
         para: "Бүгд мэддэг болохоор одоо зоригтой байх болсон байх",
-        logo: python,
+        logo: avatar6,
       },
     ],
     icon: MdArrowForward,
