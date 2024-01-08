@@ -7,7 +7,7 @@ import ReactPlayer from "react-player";
 import "swiper/css";
 import "swiper/css/pagination";
 
-import { content } from "../App";
+import { content } from "../Content";
 
 const customStyles = {
   content: {

@@ -61,7 +61,6 @@ const Login = ({ onLogin }) => {
               <div>
                 <label
                   htmlFor="email"
-                  for="email"
                   className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
                 >
                   Заасан үгийг минь бичээрэй
@@ -79,7 +78,6 @@ const Login = ({ onLogin }) => {
               <div>
                 <label
                   htmlFor="password"
-                  for="password"
                   className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
                 >
                   Үерхсэн өдрөө бичээрэй
@@ -96,6 +94,7 @@ const Login = ({ onLogin }) => {
               </div>
 
               <button
+              type="submit"
                 onClick={handleLoginClick}
                 className="w-full p-2 border rounded-xl border-slate-300"
                 
