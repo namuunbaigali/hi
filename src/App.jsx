@@ -14,6 +14,7 @@ import React from 'react';
 import './Layouts/Navbar';
 import { createRoot } from 'react-dom/client';
 import TravelPhoto from "./components/photos/TravelPhotos";
+import Footer from "./components/Footer";
 // import PhotoAlbums from "./components/photos/PhotoAlbums";
 
 
@@ -48,6 +49,7 @@ const App = () => {
           <TravelPhoto />
           {/* <PhotoAlbums/> */}
           <Hireme />
+          <Footer/>
           <Contact />
 
           {/* <button className="border border-[red] bg-blue-600 p-8">

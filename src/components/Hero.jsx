@@ -5,8 +5,8 @@ import Modal from "react-modal";
 
 const customStyles = {
   content: {
-    top: "43%",
-    left: "43%",
+    top: "49%",
+    left: "49%",
     right: "auto",
     bottom: "auto",
     marginRight: "-50%",
@@ -17,7 +17,7 @@ const customStyles = {
     overflow: "auto",
   },
   overlay: {
-    zindex: 3000,
+    zindex: 9000,
     padding: "2rem",
   },
   "@media (max-width: 600px)": {
