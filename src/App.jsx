@@ -26,7 +26,7 @@ const App = () => {
     Aos.init({
       duration: 1800,
       offset: 100,  
-      disable: "mobile",
+      // disable: "mobile",
     });
   }, []);
 
@@ -55,7 +55,7 @@ const App = () => {
           {/* <button className="border border-[red] bg-blue-600 p-8">
             hi
           </button> */}
-          <footer className="p-3 text-center not-italic">
+          <footer className="p-3 not-italic text-center">
             <h6 className="mb-3">GARID & NAMUUK</h6>
             <p>Эцсийн хүчээ шавхаад энэ амьдралд чамайг л авч үлдмээр байна.</p>
             <h2> ХАМГИЙН САЙХАН НЬ . . .</h2>

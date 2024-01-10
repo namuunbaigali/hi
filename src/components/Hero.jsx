@@ -5,7 +5,7 @@ import Modal from "react-modal";
 
 const customStyles = {
   content: {
-    top: "55%",
+    top: "60%",
     left: "49%",
     right: "50%",
     bottom: "auto",
@@ -22,6 +22,16 @@ const customStyles = {
   },
   "@media (max-width: 600px)": {
     content: {
+      top: "60%",
+      left: "49%",
+      right: "50%",
+      bottom: "auto",
+      marginRight: "-50%",
+      transform: "translate(-50%, -50%)",
+      width: "90%",
+      maxWidth: "23rem",
+      maxHeight: "45rem",
+      overflow: "auto",
       width: "100%",
       maxHeight: "30vh",
     },
