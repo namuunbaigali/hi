@@ -15,7 +15,7 @@ const Projects = () => {
   return (
     <section className="bg-bg_light_primary" id="projects">
       <div className="flex flex-col justify-between min-h-screen px-5 md:container pt-14">
-      <iframe src={ video} title="W3Schools Free Online Web Tutorials" className="hidden"></iframe>
+      <iframe src={ video} title="mainvideo" className="w-full"></iframe>
         <div>
           <h2 className="title" data-aos="fade-down">
             {Projects.title}

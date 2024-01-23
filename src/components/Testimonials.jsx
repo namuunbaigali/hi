@@ -14,18 +14,18 @@ const Testimonials = () => {
   const [activeIndex, setActiveIndex] = useState(0);
   return (
     <section>
-      <div className="md:container px-5 pt-14">
+      <div className="px-5 md:container pt-14">
         <h2 className="title" data-aos="fade-down">
           {Testimonials.title}
         </h2>
-        <h4 className="text-gray text-lg" data-aos="fade-down">
+        <h4 className="text-lg text-gray" data-aos="fade-down">
           {Testimonials.subtitle}
         </h4>
         <br />
         <Swiper
           direction={"vertical"}
           pagination={{
-            clickable: true,
+            clickable: false,
           }}
           data-aos="fade-up"
           loop={true}
@@ -46,9 +46,9 @@ const Testimonials = () => {
                border-slate-200  md:flex-row flex-col overflow-y-scroll no-scrollbar 
                 ${activeIndex !== i && "scale-75 blur-sm   overflow-y-scroll no-scrollbar"}`}
               >
-                <img src={content.img} alt="..." className="xs:sticky sticky top-0 h-24 rounded-full items-center " />
+                <img src={content.img} alt="..." className="sticky top-0 items-center h-24 rounded-full xs:sticky " />
                 <div>
-                  <p className="sm:text-base   md:pt-32 items-center text-sm overflow-y-scroll no-scrollbar">{content.review}</p>
+                  <p className="items-center overflow-y-scroll text-sm sm:text-base md:pt-32 no-scrollbar">{content.review}</p>
                   <br />
                   {/* <h6>{content.name}</h6> */}
                 </div>

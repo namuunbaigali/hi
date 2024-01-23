@@ -31,7 +31,7 @@ const Footer = () => {
     const { Footer } = content;
     return(
         <section className="bg-bg_light_primary" id="projects">
- <p className="title xs:font-light xs:text-sm" data-aos="fade-down">
+ <p className="text-center xs:font-light xs:text-sm" data-aos="fade-down">
             {Footer.text}
           </p>
 </section>
