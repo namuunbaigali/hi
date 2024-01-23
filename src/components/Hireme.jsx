@@ -5,28 +5,45 @@ import TravelPhoto from "./photos/TravelPhotos";
 import Hero_person from "../assets/images/Hireme/person.png";
 // import Hero_person2 from "../assets/images/Hero/person2.png";
 
+// const customStyles = {
+//   content: {
+//     top: "50%",
+//     left: "47%",
+//     right: "auto",
+//     bottom: "auto",
+//     marginRight: "-50%",
+//     transform: "translate(-50%, -50%)",
+//     width: "90%",
+//     maxWidth: "23rem",
+//     maxHeight: "35rem",
+//     overflow: "auto",
+//   },
+//   overlay: {
+//     zindex: 3500,
+//     padding: "2rem",
+//   },
+//   "@media (max-width: 600px)": {
+//     content: {
+//       width: "100%", // Adjust width for smaller screens
+//       maxHeight: "70vh", // Adjust maximum height for smaller screens
+//     },
+//   },
+// };
 const customStyles = {
   content: {
     top: "50%",
-    left: "47%",
+    left: "50%",
     right: "auto",
     bottom: "auto",
     marginRight: "-50%",
     transform: "translate(-50%, -50%)",
-    width: "90%",
     maxWidth: "23rem",
-    maxHeight: "35rem",
-    overflow: "auto",
+    width: "90%",
+    maxHeight: "23rem",
+    height: "90%",
   },
   overlay: {
-    zindex: 3500,
     padding: "2rem",
-  },
-  "@media (max-width: 600px)": {
-    content: {
-      width: "100%", // Adjust width for smaller screens
-      maxHeight: "70vh", // Adjust maximum height for smaller screens
-    },
   },
 };
 

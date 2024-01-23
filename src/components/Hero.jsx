@@ -5,37 +5,56 @@ import Modal from "react-modal";
 
 const customStyles = {
   content: {
-    top: "40%",
-    left: "45%",
-    // right: "50%",
+    top: "50%",
+    left: "50%",
+    right: "auto",
     bottom: "auto",
     marginRight: "-50%",
     transform: "translate(-50%, -50%)",
-    width: "90%",
     maxWidth: "23rem",
-    maxHeight: "38rem",
-    overflow: "auto",
+    width: "90%",
+    maxHeight: "23rem",
+    height: "90%",
   },
   overlay: {
-    zindex: 9000,
     padding: "2rem",
   },
-  "@media (max-width: 600px)": {
-    content: {
-      top: "40%",
-      left: "45%",
-      // right: "50%",
-      bottom: "auto",
-      marginRight: "-50%",
-      transform: "translate(-50%, -50%)",
-      width: "90%",
-      maxWidth: "23rem",
-      maxHeight: "38rem",
-      overflow: "auto",
-      zindex:9000
-    },
-  },
 };
+Modal.setAppElement("#root");
+
+// const customStyles = {
+//   content: {
+//     top: "40%",
+//     left: "45%",
+//     // right: "50%",
+//     bottom: "auto",
+//     marginRight: "-50%",
+//     transform: "translate(-50%, -50%)",
+//     width: "90%",
+//     maxWidth: "23rem",
+//     maxHeight: "38rem",
+//     overflow: "auto",
+//   },
+//   overlay: {
+//     zindex: 9000,
+//     padding: "2rem",
+//   },
+//   "@media (max-width: 600px)": {
+//     content: {
+//       top: "40%",
+//       left: "45%",
+//       // right: "50%",
+//       bottom: "auto",
+//       marginRight: "-50%",
+//       transform: "translate(-50%, -50%)",
+//       width: "90%",
+//       maxWidth: "23rem",
+//       maxHeight: "38rem",
+//       overflow: "auto",
+//       zindex:9000
+//     },
+//   },
+// };
 
 const Hero = () => {
   const { hero } = content;
